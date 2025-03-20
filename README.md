@@ -37,7 +37,7 @@ Is responsible for ***blocking or unblocking the f0-f2 frequency outputs***. The
 I tested the program with the ***ESP32 WROOM* processor with 30 pins shown in the picture.
 
 ## I2C address of the SI5351
-I tested the program with two SI5351 modules (showed on pictures) which already containing the I2C environment. Both modules had a decimal address ***96*** or ***0x60** hexadecimal.
+I tested the program with two SI5351 modules (showed on pictures) which already containing the I2C environment. Both modules had a decimal address ***96*** or ***0x60*** hexadecimal.
 If you need to detect the I2C address, I suggest using an I2C address detector by uncommenting the line:<br/>
 ***#print(i2c.scan())***
    
