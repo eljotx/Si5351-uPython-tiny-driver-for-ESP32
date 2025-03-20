@@ -47,4 +47,4 @@ Theoretically, the program should operate on double precision numbers, but uPyth
 ## Lower control limit.
 The SI5351 system operates from about 8KHz with additional help of Rx registers for each channel, but the presented program does not have such a possibility, omitting Rx registers, which means that the lowest achievable frequency is about 400kHz, which in the case of a receiver with direct conversion (Tayloe mixer) ensures operation of devices from about 125kHz with a x4 multiplier.
 
-I hope that the reader will find useful information despite the incompetence and shortcomings of the program code and the amateur programmer himself, and will simply find a use for the solutions shown.  Just have a fun ;-)! 
+### I hope that the reader will find useful information despite the incompetence and shortcomings of the program code and the amateur programmer himself, and will simply find a use for the solutions shown.  Just have a fun ;-)! 
