@@ -12,7 +12,7 @@ When writing the program I tried to achieve the goal with minimal effort and cod
   ***import machine***<br/>
   ***from machine import Pin, SoftI2C***
 3. Declare the I2c channel<br/>
-  ***i2c = SoftI2C(scl=Pin(25), sda=Pin(26),freq=400000)***<br/>
+  ***i2c = SoftI2C(scl=Pin(25), sda=Pin(26),freq=400000)*** #change scl pin and sda pin according to your environment<br/>
   ***i2c_addr = 96***
 4. Create an instance of the generator, e.g. named gen1 by running constructor<br/>
   ***gen1 = Tiny_SI5351()***
