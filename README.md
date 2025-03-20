@@ -19,7 +19,7 @@ When writing the program I tried to achieve the goal with minimal effort and cod
   
 # Methods available:<br/>
 1. Setting the frequency on channel 2-4<br/>
-  ***gen1.ster(frequency,channel_number,PLL_gen_correction)***<br/>
+  ***gen1.ster(frequency,channel_number,corr)***<br/>
 2. Unblocking the output of channel 2-4<br/>
   ***gen1.ctrl(ctrl)***
 
