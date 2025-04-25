@@ -35,12 +35,16 @@ Is responsible for ***blocking or unblocking the f0-f2 frequency outputs***. The
 # Some useful information:
 ## Tested ESP32 module
 I tested the program with the ***ESP32 WROOM* processor with 30 pins shown in the picture.
+
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](/esp32.jpg)
 
 ## I2C address of the SI5351
 I tested the program with two SI5351 modules (showed on pictures) which already containing the I2C environment. Both modules had a decimal address ***96*** or ***0x60*** hexadecimal.
 If you need to detect the I2C address, I suggest using an I2C address detector by uncommenting the line:<br/>
 ***#print(i2c.scan())***
+
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](/si5351.jpg)
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](/si5351_1.jpg)
    
 ## Control accuracy.
 Theoretically, the program should operate on double precision numbers, but uPython for ESP32 does not provide such accuracy. Measurements show that for a frequency of about 10MHz, it is possible to obtain a resolution of about 1Hz, which of course will deteriorate with increasing frequency to about 10Hz for 100MHz.
